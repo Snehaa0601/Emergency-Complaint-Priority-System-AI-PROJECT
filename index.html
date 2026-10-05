@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Emergency Complaint Priority System</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f2f4f7;
+        }
+
+        .header {
+            background: #1f2937;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .header p {
+            margin-top: 8px;
+        }
+
+        .container {
+            width: 600px;
+            max-width: 90%;
+            margin: 40px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px #cccccc;
+        }
+
+        label {
+            display: block;
+            margin-top: 18px;
+            margin-bottom: 6px;
+            font-weight: bold;
+        }
+
+        select,
+        input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #cccccc;
+            border-radius: 6px;
+            font-size: 15px;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 25px;
+            padding: 13px;
+            border: none;
+            border-radius: 6px;
+            background: #1f2937;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #374151;
+        }
+
+        .result {
+            margin-top: 25px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            background: #eeeeee;
+        }
+
+        .result h2 {
+            margin: 0;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<div class="header">
+
+    <h1>Emergency Complaint Priority System</h1>
+
+    <p>AI-Based Complaint Classification</p>
+
+</div>
+
+
+<div class="container">
+
+
+    <form action="/predict" method="POST">
+
+
+        <label>
+            Complaint Category
+        </label>
+
+        <select name="category" required>
+
+            <option value="">Select Category</option>
+
+            <option value="Fire">
+                Fire
+            </option>
+
+            <option value="Medical">
+                Medical
+            </option>
+
+            <option value="Accident">
+                Accident
+            </option>
+
+            <option value="Security">
+                Security
+            </option>
+
+            <option value="Gas Leak">
+                Gas Leak
+            </option>
+
+            <option value="Electricity">
+                Electricity
+            </option>
+
+            <option value="Water">
+                Water
+            </option>
+
+            <option value="Road Damage">
+                Road Damage
+            </option>
+
+            <option value="Garbage">
+                Garbage
+            </option>
+
+            <option value="Streetlight">
+                Streetlight
+            </option>
+
+            <option value="Noise">
+                Noise
+            </option>
+
+            <option value="Drainage">
+                Drainage
+            </option>
+
+        </select>
+
+
+        <label>
+            Severity
+        </label>
+
+        <input
+            type="number"
+            name="severity"
+            min="1"
+            max="5"
+            placeholder="Enter severity from 1 to 5"
+            required
+        >
+
+
+        <label>
+            Number of People Affected
+        </label>
+
+        <input
+            type="number"
+            name="people"
+            min="1"
+            placeholder="Enter number of people"
+            required
+        >
+
+
+        <label>
+            Response Urgency
+        </label>
+
+        <input
+            type="number"
+            name="response"
+            min="1"
+            max="5"
+            placeholder="Enter urgency from 1 to 5"
+            required
+        >
+
+
+        <button type="submit">
+            Predict Complaint Priority
+        </button>
+
+
+    </form>
+
+
+    {% if result %}
+
+    <div class="result">
+
+        <h2>
+            Predicted Priority:
+            {{ result }}
+        </h2>
+
+    </div>
+
+    {% endif %}
+
+
+</div>
+
+
+</body>
+
+</html>
