@@ -1,0 +1,301 @@
+complaint_category,severity,people_affected,response_urgency,priority
+Noise,1,2,3,Low
+Security,2,9,1,Low
+Noise,5,6,5,Medium
+Gas Leak,1,2,1,Low
+Security,2,33,5,High
+Fire,5,13,5,High
+Gas Leak,2,29,5,High
+Electricity,1,49,2,Low
+Drainage,4,22,3,Medium
+Accident,2,49,3,Medium
+Medical,1,25,1,Low
+Water,3,39,3,Medium
+Fire,4,35,1,Medium
+Gas Leak,1,36,3,Medium
+Noise,5,24,5,High
+Security,1,3,2,Low
+Electricity,1,15,1,Low
+Gas Leak,3,30,3,Medium
+Accident,3,23,2,Medium
+Noise,3,45,1,Low
+Streetlight,2,35,2,Low
+Accident,4,25,3,High
+Noise,5,15,3,Medium
+Fire,2,3,3,Medium
+Gas Leak,3,5,2,Medium
+Streetlight,3,14,4,Medium
+Gas Leak,4,10,3,Medium
+Accident,2,48,5,High
+Garbage,3,48,5,Medium
+Gas Leak,5,26,3,High
+Security,2,33,4,Medium
+Medical,1,8,2,Low
+Noise,2,44,4,Medium
+Streetlight,1,25,4,Medium
+Streetlight,4,34,3,Medium
+Garbage,1,44,1,Low
+Noise,5,49,3,Medium
+Noise,3,8,3,Low
+Gas Leak,2,30,1,Medium
+Drainage,3,33,2,Medium
+Garbage,1,41,3,Low
+Noise,5,39,2,Medium
+Accident,3,49,2,Medium
+Garbage,5,1,5,Medium
+Water,4,2,1,Low
+Water,3,16,1,Low
+Security,5,6,1,Medium
+Drainage,4,5,5,Medium
+Accident,2,43,4,Medium
+Garbage,2,17,5,Medium
+Streetlight,4,14,5,Medium
+Drainage,2,46,3,Medium
+Gas Leak,3,29,5,High
+Road Damage,1,16,2,Low
+Medical,3,2,5,Medium
+Garbage,2,38,2,Low
+Fire,1,46,1,Low
+Security,1,3,3,Low
+Medical,5,16,3,High
+Noise,4,14,5,Medium
+Accident,5,37,4,High
+Security,4,27,2,Medium
+Medical,1,43,4,Medium
+Water,4,27,4,High
+Drainage,1,44,1,Low
+Fire,4,47,3,High
+Medical,2,13,2,Medium
+Garbage,4,9,4,Medium
+Accident,3,30,2,Medium
+Medical,4,36,1,Medium
+Fire,5,1,1,Medium
+Security,2,27,4,Medium
+Road Damage,2,26,1,Low
+Accident,4,1,4,Medium
+Electricity,4,19,4,Medium
+Drainage,5,43,4,High
+Accident,2,19,2,Medium
+Fire,5,48,5,High
+Fire,3,4,1,Low
+Streetlight,4,33,5,High
+Accident,1,33,1,Low
+Accident,1,39,1,Low
+Noise,2,26,1,Low
+Streetlight,2,38,5,Medium
+Fire,5,6,4,High
+Noise,5,37,5,High
+Water,3,14,3,Medium
+Security,3,26,2,Medium
+Noise,3,30,3,Medium
+Medical,1,30,5,Medium
+Streetlight,1,5,5,Low
+Security,5,17,2,Medium
+Water,1,16,3,Low
+Electricity,2,29,5,Medium
+Drainage,3,40,5,High
+Fire,5,20,1,Medium
+Accident,3,8,1,Low
+Drainage,5,10,3,Medium
+Electricity,5,14,3,Medium
+Security,3,33,4,High
+Electricity,1,6,4,Low
+Electricity,1,1,3,Low
+Accident,3,11,4,Medium
+Garbage,4,36,1,Medium
+Medical,1,45,2,Medium
+Garbage,1,24,5,Medium
+Garbage,2,28,2,Low
+Fire,3,24,1,Medium
+Water,2,44,2,Medium
+Noise,1,23,5,Medium
+Gas Leak,5,48,2,High
+Security,2,12,4,Medium
+Fire,2,48,3,Medium
+Gas Leak,2,18,2,Medium
+Drainage,1,25,1,Low
+Road Damage,2,13,4,Medium
+Water,3,15,2,Medium
+Fire,2,26,3,Medium
+Electricity,1,50,3,Medium
+Water,5,26,5,High
+Water,1,8,3,Low
+Accident,5,17,1,Medium
+Medical,5,28,3,High
+Drainage,3,28,5,High
+Garbage,1,25,5,Medium
+Security,3,3,4,Medium
+Fire,5,35,2,High
+Water,4,5,3,Medium
+Streetlight,3,43,1,Low
+Drainage,3,33,3,Medium
+Noise,4,21,4,Medium
+Drainage,3,36,2,Medium
+Security,4,43,4,High
+Noise,2,40,5,Medium
+Electricity,4,36,1,Medium
+Electricity,3,14,4,Medium
+Streetlight,5,42,3,Medium
+Road Damage,4,29,2,Medium
+Garbage,4,48,2,Medium
+Noise,1,19,5,Medium
+Noise,5,22,1,Medium
+Security,3,15,2,Medium
+Accident,1,3,2,Low
+Road Damage,5,50,1,Medium
+Road Damage,4,41,5,High
+Security,4,32,4,High
+Security,2,42,1,Medium
+Medical,4,15,2,Medium
+Drainage,5,30,1,Medium
+Garbage,2,8,4,Low
+Accident,4,43,5,High
+Garbage,5,21,4,High
+Streetlight,5,28,5,High
+Road Damage,2,48,4,Medium
+Road Damage,3,49,2,Medium
+Noise,3,50,5,Medium
+Road Damage,2,18,4,Medium
+Medical,3,16,3,Medium
+Water,3,35,1,Medium
+Accident,2,15,4,Medium
+Drainage,2,46,2,Medium
+Medical,4,27,3,High
+Garbage,4,27,1,Medium
+Security,4,25,5,High
+Drainage,1,49,5,Medium
+Gas Leak,4,1,3,Medium
+Electricity,4,27,5,High
+Drainage,5,39,2,Medium
+Road Damage,2,18,4,Medium
+Road Damage,1,25,3,Medium
+Noise,4,47,2,Medium
+Road Damage,2,40,5,Medium
+Fire,4,38,5,High
+Noise,1,6,4,Low
+Accident,4,12,1,Medium
+Electricity,4,21,2,Medium
+Road Damage,3,22,4,Medium
+Electricity,4,17,1,Medium
+Road Damage,1,48,5,Medium
+Fire,3,15,1,Medium
+Noise,1,49,1,Low
+Security,2,2,5,Medium
+Accident,2,9,4,Medium
+Noise,1,37,2,Low
+Road Damage,3,50,3,Medium
+Accident,5,39,1,Medium
+Accident,3,7,5,Medium
+Fire,3,37,4,High
+Gas Leak,2,5,5,Medium
+Drainage,2,7,3,Low
+Noise,5,8,5,Medium
+Fire,3,35,4,High
+Noise,3,5,5,Medium
+Noise,3,1,4,Medium
+Road Damage,1,28,3,Medium
+Noise,4,46,2,Medium
+Gas Leak,2,47,5,High
+Noise,3,40,5,Medium
+Road Damage,4,28,5,High
+Electricity,3,16,1,Low
+Electricity,4,16,4,Medium
+Streetlight,5,43,4,High
+Water,1,32,3,Medium
+Accident,4,14,3,Medium
+Electricity,3,18,5,Medium
+Drainage,3,36,1,Medium
+Garbage,2,6,2,Low
+Drainage,4,32,5,High
+Security,4,42,4,High
+Road Damage,1,6,3,Low
+Security,4,45,2,Medium
+Electricity,5,24,4,High
+Garbage,5,23,4,High
+Drainage,5,22,3,High
+Drainage,4,18,3,Medium
+Electricity,2,8,2,Low
+Water,1,48,5,Medium
+Drainage,2,13,2,Low
+Drainage,4,18,5,High
+Garbage,5,19,1,Medium
+Security,3,15,3,Medium
+Accident,3,1,5,Medium
+Accident,3,3,1,Low
+Garbage,3,45,2,Medium
+Noise,4,7,1,Low
+Streetlight,3,31,4,Medium
+Road Damage,3,12,1,Low
+Electricity,4,8,1,Low
+Gas Leak,4,5,5,High
+Noise,1,10,2,Low
+Streetlight,3,6,2,Low
+Medical,5,49,4,High
+Streetlight,5,40,2,Medium
+Garbage,4,29,4,Medium
+Electricity,5,28,3,High
+Streetlight,5,4,5,Medium
+Drainage,1,49,2,Low
+Noise,2,17,1,Low
+Accident,2,12,5,Medium
+Medical,2,1,4,Medium
+Road Damage,5,31,3,High
+Fire,2,19,3,Medium
+Drainage,4,5,2,Medium
+Electricity,5,43,2,Medium
+Gas Leak,1,35,2,Medium
+Noise,2,18,2,Low
+Medical,1,11,3,Medium
+Streetlight,5,19,4,Medium
+Medical,4,45,3,High
+Drainage,4,18,5,High
+Garbage,4,29,1,Medium
+Streetlight,1,28,3,Low
+Streetlight,3,2,1,Low
+Security,5,38,1,Medium
+Noise,3,37,1,Low
+Accident,4,34,4,High
+Electricity,2,38,4,Medium
+Noise,4,6,4,Medium
+Water,4,22,3,Medium
+Noise,1,11,3,Low
+Gas Leak,4,19,4,High
+Garbage,1,30,1,Low
+Water,3,21,1,Medium
+Gas Leak,5,1,5,High
+Road Damage,4,4,2,Medium
+Garbage,3,40,4,Medium
+Noise,4,49,1,Medium
+Security,3,36,2,Medium
+Electricity,4,45,4,High
+Medical,1,41,5,Medium
+Security,2,20,5,High
+Fire,5,27,1,Medium
+Security,1,30,1,Low
+Noise,2,32,3,Medium
+Garbage,3,27,4,Medium
+Road Damage,2,30,5,Medium
+Accident,4,13,5,High
+Garbage,2,5,3,Low
+Gas Leak,3,33,3,Medium
+Fire,3,47,3,Medium
+Streetlight,5,43,4,High
+Accident,4,35,4,High
+Water,3,36,5,High
+Gas Leak,4,21,2,Medium
+Drainage,2,37,4,Medium
+Security,4,3,3,Medium
+Drainage,4,46,4,High
+Gas Leak,2,32,1,Medium
+Accident,5,38,3,High
+Medical,4,7,5,High
+Road Damage,1,47,2,Low
+Gas Leak,2,5,4,Medium
+Electricity,3,40,4,Medium
+Noise,1,22,5,Medium
+Gas Leak,3,41,4,High
+Garbage,1,40,1,Low
+Security,3,15,1,Medium
+Gas Leak,1,49,1,Low
+Road Damage,2,45,3,Medium
+Fire,1,21,1,Low
